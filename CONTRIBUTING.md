@@ -21,6 +21,13 @@
 - 一次 commit 只做一类事情。
 - commit message 解释“为什么改”。
 - 默认不做 push/PR，除非所有者明确授权。
+- 提交前参考 `SECURITY_CHECKLIST.md` 完成核查。
+
+## 协作模板
+
+- 缺陷反馈：`.github/ISSUE_TEMPLATE/bug_report.md`
+- 功能提议：`.github/ISSUE_TEMPLATE/feature_request.md`
+- 合并请求：`.github/PULL_REQUEST_TEMPLATE.md`
 
 ## 禁止项（摘要）
 

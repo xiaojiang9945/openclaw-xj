@@ -59,8 +59,9 @@ if ($violations.Count -gt 0) {
   $violations | Sort-Object -Unique | ForEach-Object { Write-Host " - $_" -ForegroundColor Yellow }
   Write-Host ''
   Write-Host 'Action required: unstage/redact before commit.' -ForegroundColor Red
+  Write-Host 'Tips: git restore --staged <file> ; edit/redact ; git add again' -ForegroundColor DarkYellow
   exit 1
 }
 
-Write-Host '[secret-scan] pass'
+Write-Host "[secret-scan] pass (files=$($stagedFiles.Count))"
 exit 0

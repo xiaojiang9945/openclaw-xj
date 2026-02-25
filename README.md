@@ -20,7 +20,10 @@
 - `scripts/secret-scan.ps1`：提交前敏感信息扫描脚本。
 - `.githooks/pre-commit`：本地 pre-commit 钩子（调用 secret scan）。
 - `.github/workflows/secret-scan.yml`：CI 侧的基础密钥扫描示例。
+- `.github/ISSUE_TEMPLATE/*` + `.github/PULL_REQUEST_TEMPLATE.md`：标准化协作入口。
+- `SECURITY_CHECKLIST.md`：提交前快速核查清单。
 - `scripts/init-template.ps1`：模板初始化脚本（检查文件+设置 hooksPath）。
+- `scripts/daily-maintenance.ps1`：日常维护流程助手脚本。
 - `OPLOG.md`：关键操作审计记录。
 
 ## 使用方式

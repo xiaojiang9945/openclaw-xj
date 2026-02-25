@@ -1,0 +1,21 @@
+# Local env / secrets
+.env
+.env.*
+*.pem
+*.p12
+*.pfx
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.openclaw-state/
