@@ -16,8 +16,11 @@
 
 - `SECURITY_POLICY.md`：最高优先级安全与边界规则。
 - `REPO_MAINTENANCE_POLICY.md`：每日维护流程与提交规范。
+- `CONTRIBUTING.md`：协作与提交流程约定。
 - `scripts/secret-scan.ps1`：提交前敏感信息扫描脚本。
 - `.githooks/pre-commit`：本地 pre-commit 钩子（调用 secret scan）。
+- `.github/workflows/secret-scan.yml`：CI 侧的基础密钥扫描示例。
+- `scripts/init-template.ps1`：模板初始化脚本（检查文件+设置 hooksPath）。
 - `OPLOG.md`：关键操作审计记录。
 
 ## 使用方式
