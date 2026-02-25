@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts/secret-scan.ps1
